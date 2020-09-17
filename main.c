@@ -5,15 +5,24 @@
 
 int main(void) {
 	
-	int i;
-	char c;
+	float a, b;
 	
-	printf(" input an alphabet : ");
-	scanf("%c", &c);
+	printf(" input a upper integer : ");
+	scanf("%f", &a);
 	
-	i = c + 1;
-	printf("\n This is a next alphabet : %c\n", i);
-	printf("\n input alphabet is %c (%d), the next one is %c (%d)\n", c, c, c+1, c+1);
+	printf("\n input a lower integer : ");
+	scanf("%f", &b);
+	
+	printf("\n\n The result is %f\n", a/b);
+	
+	/*
+	int a, b;
+	
+	printf("input two integers :");
+	scanf("%d %d", &a, &b);
+	
+	printf("result is %f\n", (float)a/b);
+	*/
 	
 	return 0;
 }
