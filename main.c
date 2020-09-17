@@ -5,14 +5,15 @@
 
 int main(void) {
 	
-	char c;
 	int i;
+	char c;
 	
-	printf("input a number : ");
+	printf(" input an alphabet : ");
 	scanf("%c", &c);
 	
-	i = c - '0';
-	printf("The input number is %i\n", i);
+	i = c + 1;
+	printf("\n This is a next alphabet : %c\n", i);
+	printf("\n input alphabet is %c (%d), the next one is %c (%d)\n", c, c, c+1, c+1);
 	
 	return 0;
 }
